@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="imageContainer">
+
+    </div>
+</body>
+<!-- <script>
+
+    let imageContainer=document.getElementById("imageContainer");
+    let imageUrls=["https://i.ytimg.com/an_webp/RPLt3TiH6zg/mqdefault_6s.webp?du=3000&sqp=CIjbvbkG&rs=AOn4CLATqzAXAas_nwMxTfplMXObxbKCfQ","https://i.ytimg.com/vi/nofh18L_CEU/oar2.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLAw6HKJpeTEerYEx6QnkHzk4io2jA",
+       "https://i.ytimg.com/an_webp/RPLt3TiH6zg/mqdefault_6s.webp?du=3000&sqp=CIjbvbkG&rs=AOn4CLATqzAXAas_nwMxTfplMXObxbKCfQ","https://i.ytimg.com/vi/nofh18L_CEU/oar2.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLAw6HKJpeTEerYEx6QnkHzk4io2jA" ,
+       "https:W"
+    ]
+
+    
+
+    function generateImage(imageUrls){
+     return new Promise((resolve,reject)=>{
+        let image=document.createElement("img");
+        image.src=imageUrls;
+        image.onload=()=>resolve();
+        image.onerror=()=>reject(new Error("Image failed to load"));
+        imageContainer.appendChild(image);
+     })
+    }
+
+    Promise.all(
+        imageUrls.map(generateImage)
+    )
+</script> -->
+
+<script src="./27.js"></script>
+</html>
